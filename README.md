@@ -171,3 +171,28 @@ Possible future improvements include:
 The current version implements the core favicon and app icon generation workflow, including validation, image processing, progress feedback, result previews, ZIP export, reset functionality, and responsive design.
 
 Built as part of a Week 3 internship project.
+
+## Lighthouse Audit
+
+The deployed application was tested using Google Lighthouse on a mobile emulation profile.
+
+| Category | Score |
+|---|---:|
+| Performance | 74 |
+| Accessibility | 100 |
+| Best Practices | 100 |
+| SEO | 90 |
+
+The audit was used to perform a quick performance, accessibility, best-practices, and SEO check before final submission.
+
+### Audit Highlights
+
+- Accessibility: **100/100**
+- Best Practices: **100/100**
+- Performance: **74/100**
+- SEO: **90/100**
+- Cumulative Layout Shift (CLS): **0**
+- First Contentful Paint (FCP): **2.0 s**
+- Largest Contentful Paint (LCP): **2.0 s**
+
+The remaining Lighthouse recommendations are mainly optimization opportunities and do not prevent the application from functioning correctly.
